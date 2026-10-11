@@ -1,0 +1,9 @@
+# 字幕文件禁用一切换行符转换：ASS 依赖 UTF-8 BOM，CRLF/LF 归一化会破坏部分播放器的解析
+*.ass -text
+*.ssa -text
+*.srt -text
+*.vtt -text
+
+# 强制二进制处理，避免 Git 尝试做 diff 压缩
+*.ass binary
+*.ssa binary

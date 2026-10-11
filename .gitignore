@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# 视频本体一律不入库
+*.mp4
+*.mkv
+*.webm
+*.flv
+*.ts
+*.mov
+*.m4v
+
+# 临时文件
+*.tmp
+*.bak
+*~
